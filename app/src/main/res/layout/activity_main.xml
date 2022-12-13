@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/llPlayer1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/player1Btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_1"
+            tools:ignore="NestedWeights" />
+
+        <ImageButton
+            android:id="@+id/player1Btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_2" />
+
+        <ImageButton
+            android:id="@+id/player1Btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_3" />
+
+        <ImageButton
+            android:id="@+id/player1Btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_4" />
+
+        <ImageButton
+            android:id="@+id/player1Btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_5" />
+
+        <ImageButton
+            android:id="@+id/player1Btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu1_button"
+            android:contentDescription="@string/oyuncu1Butonlari"
+            app:srcCompat="@drawable/ic_oyuncu1_6" />
+    </LinearLayout>
+
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:divider="@drawable/ara_cizgi"
+        android:padding="20dp"
+        android:showDividers="middle"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@drawable/ara_cizgi"
+            android:showDividers="middle">
+
+
+            <ImageButton
+                android:id="@+id/btn1_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari" />
+
+            <ImageButton
+                android:id="@+id/btn1_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn1_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@drawable/ara_cizgi"
+            android:showDividers="middle">
+
+
+            <ImageButton
+                android:id="@+id/btn2_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn2_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn2_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:divider="@drawable/ara_cizgi"
+            android:showDividers="middle">
+
+
+            <ImageButton
+                android:id="@+id/btn3_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn3_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+            <ImageButton
+                android:id="@+id/btn3_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/empty_background"
+                app:srcCompat="@drawable/empty_drawable"
+                android:contentDescription="@string/oyunAlaniButonlari"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llPlayer2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <ImageButton
+            android:id="@+id/player2Btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_1"
+            tools:ignore="NestedWeights"
+            android:contentDescription="@string/oyuncu2Butonlari" />
+
+        <ImageButton
+            android:id="@+id/player2Btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_2"
+            android:contentDescription="@string/oyuncu2Butonlari"/>
+
+        <ImageButton
+            android:id="@+id/player2Btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_3"
+            android:contentDescription="@string/oyuncu2Butonlari"/>
+
+        <ImageButton
+            android:id="@+id/player2Btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_4"
+            android:contentDescription="@string/oyuncu2Butonlari"/>
+
+        <ImageButton
+            android:id="@+id/player2Btn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_5"
+            android:contentDescription="@string/oyuncu2Butonlari"/>
+
+        <ImageButton
+            android:id="@+id/player2Btn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/oyuncu2_button"
+            app:srcCompat="@drawable/ic_oyuncu2_6"
+            android:contentDescription="@string/oyuncu2Butonlari"/>
+    </LinearLayout>
+
+</LinearLayout>
